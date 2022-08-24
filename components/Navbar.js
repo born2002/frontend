@@ -11,10 +11,10 @@ export default function Navbar() {
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">หน้าเเรก</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/employee/employee">management</a>
+            <a class="nav-link" href="/employee/employee">ข้อมูลพนักงาน</a>
           </li>
         </ul>
       </div>

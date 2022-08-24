@@ -24,8 +24,8 @@ export default function getData({ employees }) {
   return (
    <div className="m-4 p-4">
        <div align="center">
-      <Link href="/employee/Post"><a class="text-decoration-none btn btn-primary "> + Addmember</a></Link>
-      <table id="example2" className="table table-bordered table-hover my-2" border="1">
+       <div classname=" justify-content-end">  <p><b classmame="fw-bold">รายชื่อพนักงาน</b> </p></div>
+      <table id="example2" className="table table-dark table-striped" border="1">
         <thead>
           <tr>
             <th className="text-center">ID</th>
@@ -51,6 +51,9 @@ export default function getData({ employees }) {
           ))}
         </tbody>
       </table>
+      <div classname="d-flex justify-content-end"><Link href="/employee/Post"><a class="text-decoration-none btn btn-danger "> เพิ่มรายชื่อพนักงาน</a></Link></div>
+
+
     </div>
   </div>
   )
